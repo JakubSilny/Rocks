@@ -13,3 +13,4 @@ namespace rock_scissors_paper.Model
         Scissors
     }
 }
+    
