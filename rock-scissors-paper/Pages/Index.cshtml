@@ -7,10 +7,10 @@
 
 <div class="text-center">
     <h1>Welcome</h1>
-    <p>Kolo: @Model.Round</p>
-    <p>Hráč: @Model.Player | Počítač: @Model.Computer</p>
-    <p>Výhry: @Model.Wins | Remízy: @Model.Draw |Prohry: @Model.Lose</p>
-    <p>Kámen: @Model.Rock | Nůžky: @Model.Scissors | Papír: @Model.Paper</p>
+    <p>Round: @Model.Round</p>
+    <p>Player: @Model.Player | Computer: @Model.Computer</p>
+    <p>Wins: @Model.Wins | Remízy: @Model.Draw |Lose: @Model.Lose</p>
+    <p>Rock: @Model.Rock | Scissors: @Model.Scissors | Paper: @Model.Paper</p>
 </div>
 <div>
     <form method="post">
@@ -27,11 +27,11 @@
         </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" asp-for="@Model.Player" value="@Choice.Scissors">
-            <label class="form-check-label" for="inlineRadio2">Nůžky &#960;</label>
+            <label class="form-check-label" for="inlineRadio2">Scissors &#960;</label>
         </div>
         <div class="form-check">
             <input class="form-check-input" type="radio" asp-for="@Model.Player" value="@Choice.Paper">
-            <label class="form-check-label" asp-for="@Model.Player">Papír</label>
+            <label class="form-check-label" asp-for="@Model.Player">Paper</label>
         </div>
         <button type="submit" class="btn btn-dark">Play</button>
     </form>
