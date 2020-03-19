@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>rock_scissors_paper</RootNamespace>
+    <RootNamespace>Rocks</RootNamespace>
   </PropertyGroup>
 
 

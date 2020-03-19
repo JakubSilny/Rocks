@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace rock_scissors_paper.Model
+namespace Rocks.Model
 {
     public enum Choice
     {

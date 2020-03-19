@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using rock_scissors_paper.Model;
+using Rocks.Model;
 
-namespace rock_scissors_paper.Pages
+namespace Rocks.Pages
 {
     public class IndexModel : PageModel
     {
